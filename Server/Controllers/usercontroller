@@ -3,6 +3,7 @@ const bcrypt = require("bcrypt");
 const User = require("../model/userModel"); // Corrected variable name to 'User'
 require("dotenv").config();
 
+
 const registerUser = asyncHandler(async (req, res) => {
     const { firstName, lastName, age, gender, bloodGroup, email, phoneNumber, password } = req.body;
 
