@@ -6,10 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is my homepage.</h1>
-    <div><form action="/profile" method="post" enctype="multipart/form-data">
-    <input type="file" name="avatar" />
-    <input type="Submit" value="upload"></form>
+    <h1>Hey! This is Home Page </h1>
+    {{username}}
+    <div>
+        <form action="/profile" method="post" enctype="multipart/form-data">
+        <input type="file" name="avatar" />
+        <input type="submit" name="Upload">
+        </form>
     </div>
-    
+</body>
 </html>
